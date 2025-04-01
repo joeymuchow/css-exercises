@@ -16,4 +16,16 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  width: 150px;
+  height: 75px;
+  transition-property: width, height;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+/* I did not do this the right way when comparing to solution, still works, but looks worse */
+
+button:hover {
+  height: 100px;
+  width: 250px;
 }
